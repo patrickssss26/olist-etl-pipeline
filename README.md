@@ -15,6 +15,10 @@ GCP (BigQuery, Cloud Storage) • Apache Airflow • Python • Power BI • Doc
 - **Load**: Push to BigQuery, visualize in Power BI
 - **Orchestrate**: Airflow DAG runs daily
 
+
+<img width="1303" height="734" alt="image" src="https://github.com/user-attachments/assets/ba4a6fce-c9fd-4138-826f-0159437a2c4c" />
+
+
 ## Results
 
 - 99K orders, 33K products processed

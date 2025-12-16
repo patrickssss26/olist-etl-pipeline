@@ -9,7 +9,7 @@ bq_client = bigquery.Client()
 PROJECT_ID = 'olist-etl-pipeline-481006'
 RAW_BUCKET = 'olist-raw-data-pas'
 PROCESSED_BUCKET = 'olist-processed-data-pas'
-DATASET_ID = 'olist_warehouse'
+DATASET_ID = 'olist_warehouse_us'
 
 def load_csv_from_gcs(bucket_name, file_name):
     """Load CSV from GCP"""

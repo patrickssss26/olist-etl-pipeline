@@ -105,6 +105,7 @@ def transform_products():
     # Then fill missing values
     df['product_name_length'] = df['product_name_length'].fillna(0)
     df['product_description_length'] = df['product_description_length'].fillna(0)
+    df['product_category_name'] = df['product_category_name'].str.replace('_', ' ')
 
     # Save processed data
     upload_to_gcs(df, PROCESSED_BUCKET, 'products_processed.csv')
